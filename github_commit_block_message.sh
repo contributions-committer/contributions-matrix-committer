@@ -66,7 +66,6 @@ while read -r change_to_date; do
 done < "$DATES_TO_DRAW_FILE"
 
 sudo ntpdate -u time.apple.com
-git push -u origin master
 echo "AND WE'RE DONE. Go check out your repository!"
 
 unset REPOSITORY_URL
